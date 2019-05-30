@@ -27,7 +27,12 @@ var qestion = prompt("add width of secound reactangle");
 
 
 
-var qestion6 = prompt("add an radius of the circle ");
-qestion6 = parseInt(qestion6);
+var radius = prompt("add an radius of the circle ");
+radius = parseInt(radius);
 
 
+function calculateCircle(radius) {
+    return Math.PI * (radius + radius);
+  }
+  
+  document.write("<br> the area of circle is " + calculateCircle(radius) + "</br>");  
