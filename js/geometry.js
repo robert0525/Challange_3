@@ -3,7 +3,7 @@
 // 2. Create a function that calculates the area of a rectangle.
 //    The function should accept the width and height as arguments
 
-}
+
 
 //    and return the area of that rectangle.
 //    The area of a rectangle is the width * height
