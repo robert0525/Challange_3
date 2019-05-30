@@ -1,4 +1,4 @@
-var qestion1 = prompt("put width of reactangle");
+/* var qestion1 = prompt("put width of reactangle");
 var qestion2 = prompt("put height of reactagle");
 
 
@@ -24,7 +24,7 @@ document.write("<br> The volum area of secound Rectangle is " + answer_2 + "cm3<
 
 var qestion = prompt("add width of secound reactangle");
 
-
+*/
 
 
 var radius = prompt("add an radius of the circle ");
@@ -32,7 +32,7 @@ radius = parseInt(radius);
 
 
 function calculateCircle(radius) {
-    return Math.PI * (radius + radius);
+    return Math.PI * (radius * 2);
   }
   
   document.write("<br> the area of circle is " + calculateCircle(radius) + "</br>");  
