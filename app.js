@@ -32,7 +32,7 @@ radius = parseInt(radius);
 
 
 function calculateCircle(radius) {
-    return 2 * Math.PI * radius;
+    return  Math.PI * radius * radius;
   }
   
   document.write("<br> the area of circle is " + calculateCircle(radius) + "</br>");  
